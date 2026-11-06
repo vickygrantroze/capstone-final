@@ -1,0 +1,116 @@
+/* this is the navigation bar for the top of each page*/
+.topnav {
+    border: blue solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.nav-links {
+    vertical-align: middle;
+}
+
+/* hero banner */
+h1 {
+    background-image: url(images/herotee.png);
+    background-size: 1300px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center; display: flex; justify-content: center; align-items: center; color: rgb(239, 238, 241);
+    -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: black;
+    font-size: 48px;
+    border: 5px solid lightseagreen;
+    margin-top: 0;
+}
+
+/* I started adding code to each image before realizing I could probably use CSS to apply settings I want on all images */
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 400px;
+}
+
+
+
+/* logo img */
+.Logo {
+    width: 100px;
+
+}
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: navy;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+
+.drying {
+    width: 400px;
+}
+
+
+
+.ink-5 {
+    width: 400px;
+}
+
+/* contact info section */
+.email {
+    border: dotted;
+    color: rgb(91, 2, 46);
+
+}
+
+.phone {
+    border: dotted;
+    color: rgb(9, 50, 46);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.visit {
+    border: dotted;
+    color: rgb(117, 40, 12);
+    margin-bottom: 10px;
+}
+
+/* These are made up people. If this were real this would be a much longer list.  */
+.jane { width: fit-content;
+    border: aqua solid;
+    margin: auto;
+   
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.joey {    
+width: fit-content;
+    border: blue solid;
+    margin: auto;
+    margin: auto;
+}
+
+/* If I knew how to do it, the images would be beside the text */
+body {
+    background-color: rgb(138, 111, 119);
+}
+
+/* navigation bar at the bottom of each page */
+.footnav {
+    border: solid teal;
+    color: blue;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center; margin-top: 20px;
+}
